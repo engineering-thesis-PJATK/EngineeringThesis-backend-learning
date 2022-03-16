@@ -19,6 +19,8 @@ namespace OneBan_TMS.Controllers
         [HttpGet("GetAddressById")]
         public IActionResult GetAddressById(int addressId)
         {
+            int x = 0;
+            x++;
             if (addressId < 1)
                 return BadRequest();
 
